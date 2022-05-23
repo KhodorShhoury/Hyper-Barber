@@ -6,7 +6,7 @@ let landingImgs= ["01.jpg","02.jpg","03.jpg","04.jpg"];
 setInterval(()=>{
 let landingImg=Math.floor(Math.random() * landingImgs.length);
 
-landing.style.backgroundImage=`url(/imgs/${landingImgs[landingImg]})`;
+landing.style.backgroundImage=`url(imgs/${landingImgs[landingImg]})`;
 
 },4000);
 
