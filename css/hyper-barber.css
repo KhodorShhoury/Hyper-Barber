@@ -536,6 +536,7 @@ font-size: 50px;
      background-color: transparent;
      padding: 10px 0px;
      caret-color: var(--main-color);
+     color:white;
 }
 .services .form .content form textarea{
       min-width: 350px;
